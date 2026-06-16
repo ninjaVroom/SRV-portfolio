@@ -1,0 +1,86 @@
+/* ---- Contact form (rendered inside the dark footer) ---- */
+.cform-wrap {
+  margin: 4px 0 8px;
+}
+.cform-head {
+  display: block;
+  margin-bottom: 14px;
+  color: var(--ink-mute);
+}
+
+.cform {
+  display: grid;
+  gap: 16px;
+  max-width: 640px;
+}
+.cform-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+@media (max-width: 560px) {
+  .cform-row {
+    grid-template-columns: 1fr;
+  }
+}
+.cfield {
+  display: grid;
+  gap: 7px;
+}
+.cfield .k {
+  font-family: var(--mono);
+  font-size: 0.64rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+}
+.cfield .k em {
+  font-style: italic;
+  text-transform: none;
+  letter-spacing: 0;
+}
+.cform input,
+.cform textarea {
+  width: 100%;
+  font: inherit;
+  color: var(--paper);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 10px;
+  padding: 12px 14px;
+  transition: border-color 0.2s, background 0.2s;
+}
+.cform textarea {
+  resize: vertical;
+  min-height: 104px;
+}
+.cform input::placeholder,
+.cform textarea::placeholder {
+  color: rgba(255, 255, 255, 0.4);
+}
+.cform input:focus,
+.cform textarea:focus {
+  outline: none;
+  border-color: var(--paper);
+  background: rgba(255, 255, 255, 0.09);
+}
+.cform-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.cform-status {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--ink-mute);
+}
+/* visually hidden honeypot */
+.cform-hp {
+  position: absolute !important;
+  left: -9999px !important;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  pointer-events: none;
+}

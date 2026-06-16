@@ -1,6 +1,7 @@
 import type { SiteSetting } from '@/payload-types'
 import { mediaUrl } from '@/lib/accent'
 import { RichInline } from './RichInline'
+import { ContactForm } from './ContactForm'
 
 type Props = {
   variant: 'home' | 'discipline'
@@ -45,6 +46,10 @@ export function Footer({ variant, settings, headline, colophon }: Props) {
             <a className="pill" style={transparent} href={linkedin} target="_blank" rel="noopener">
               LinkedIn
             </a>
+          </div>
+          <div className="cform-wrap">
+            <span className="cform-head mono">Or send a message</span>
+            <ContactForm />
           </div>
           <div className="cgrid">
             <a href={`mailto:${email}`}>
@@ -92,6 +97,10 @@ export function Footer({ variant, settings, headline, colophon }: Props) {
           <a className="pill ghost" href={linkedin} target="_blank" rel="noopener">
             LinkedIn
           </a>
+        </div>
+        <div className="cform-wrap">
+          <span className="cform-head mono">Or send a message</span>
+          <ContactForm />
         </div>
         <div className="cgrid">
           <a href={`mailto:${email}`}>

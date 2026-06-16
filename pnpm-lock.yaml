@@ -11,6 +11,9 @@ importers:
       '@payloadcms/db-postgres':
         specifier: 3.85.0
         version: 3.85.0(payload@3.85.0(graphql@16.14.2)(typescript@5.9.3))
+      '@payloadcms/email-nodemailer':
+        specifier: 3.85.0
+        version: 3.85.0(payload@3.85.0(graphql@16.14.2)(typescript@5.9.3))
       '@payloadcms/next':
         specifier: 3.85.0
         version: 3.85.0(@types/react@19.2.17)(graphql@16.14.2)(monaco-editor@0.55.1)(next@15.5.19(react-dom@19.2.7(react@19.2.7))(react@19.2.7)(sass@1.77.4))(payload@3.85.0(graphql@16.14.2)(typescript@5.9.3))(react-dom@19.2.7(react@19.2.7))(react@19.2.7)(typescript@5.9.3)
@@ -1275,6 +1278,12 @@ packages:
     peerDependencies:
       payload: 3.85.0
 
+  '@payloadcms/email-nodemailer@3.85.0':
+    resolution: {integrity: sha512-TeWdnPQL1vIHOZRu6ll+SznuN8QkdacLLvqj8GJf+pkZjpCtiLst2kQd59q2Xen+wpYiQAoKcKi4x4Sx0b8i7A==}
+    engines: {node: ^18.20.2 || >=20.9.0}
+    peerDependencies:
+      payload: 3.85.0
+
   '@payloadcms/graphql@3.85.0':
     resolution: {integrity: sha512-QIAGSmtNS8XX5MxPZONMPX/xYANuzZ/xxAtlhFUxJvxTZVxbb1Aafx+dTIPTggJ4updzD3Rk/b76TYQc3jS13A==}
     hasBin: true
@@ -2079,6 +2088,10 @@ packages:
         optional: true
       sass:
         optional: true
+
+  nodemailer@8.0.11:
+    resolution: {integrity: sha512-nrO/pDAUKl+wXX+lx16tDLbnm0fW6sK/x8mgohaCpg+CdCEl482bD4tCuAZk2DyliruiNTIZxRCoWkDqJEnAiA==}
+    engines: {node: '>=6.0.0'}
 
   normalize-path@3.0.0:
     resolution: {integrity: sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==}
@@ -3582,6 +3595,11 @@ snapshots:
       - sql.js
       - sqlite3
 
+  '@payloadcms/email-nodemailer@3.85.0(payload@3.85.0(graphql@16.14.2)(typescript@5.9.3))':
+    dependencies:
+      nodemailer: 8.0.11
+      payload: 3.85.0(graphql@16.14.2)(typescript@5.9.3)
+
   '@payloadcms/graphql@3.85.0(graphql@16.14.2)(payload@3.85.0(graphql@16.14.2)(typescript@5.9.3))(typescript@5.9.3)':
     dependencies:
       graphql: 16.14.2
@@ -4569,6 +4587,8 @@ snapshots:
     transitivePeerDependencies:
       - '@babel/core'
       - babel-plugin-macros
+
+  nodemailer@8.0.11: {}
 
   normalize-path@3.0.0: {}
 

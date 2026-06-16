@@ -91,6 +91,23 @@ pnpm seed
 | `NEXT_PUBLIC_SERVER_URL` | Public site URL (absolute links / CORS).                              |
 | `SEED_ADMIN_EMAIL`       | Email for the admin user created by the seed.                         |
 | `SEED_ADMIN_PASSWORD`    | Password for that admin user.                                         |
+| `CONTACT_TO`             | Where contact-form submissions are emailed (falls back to Site Settings → email). |
+| `SMTP_HOST` / `SMTP_PORT` / `SMTP_SECURE` / `SMTP_USER` / `SMTP_PASS` / `SMTP_FROM` | SMTP delivery for the contact form. Optional — without `SMTP_HOST`, submissions are still saved and the email is logged to the console. |
+
+## Contact form, sitemap & SEO
+
+- **Contact form** — lives in the footer (`#contact`). It POSTs to the Payload
+  endpoint `POST /api/contact`, which validates input, drops honeypot bots,
+  saves a **Messages** record (visible in `/admin`), and best-effort emails a
+  notification to `CONTACT_TO` (or Site Settings → email). Email delivery uses
+  SMTP when configured; otherwise the message is logged to the server console so
+  nothing is lost in development.
+- **Sitemap** — `GET /sitemap.xml` (generated from the home page + every
+  discipline, via `src/app/sitemap.ts`).
+- **robots** — `GET /robots.txt` allows the site and disallows `/admin` and
+  `/api`, and points at the sitemap (`src/app/robots.ts`).
+- Per-page `<title>`, descriptions, and Open Graph tags come from the CMS
+  (`Home` global and each `Discipline`).
 
 ## Docker self-host
 

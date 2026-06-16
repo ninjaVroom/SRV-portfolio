@@ -3,6 +3,7 @@ import type { Metadata, Viewport } from 'next'
 import '@/styles/tokens.css'
 import '@/styles/discipline.css'
 import '@/styles/home.css'
+import '@/styles/contact.css'
 
 import { getHome, getSettings } from '@/lib/data'
 import { mediaUrl } from '@/lib/accent'
