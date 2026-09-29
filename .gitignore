@@ -1,0 +1,39 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# next.js
+/.next/
+/out/
+next-env.d.ts
+
+# production
+/build
+/dist
+
+# generated Payload types are committed; uploads are not
+/media/*
+!/media/.gitkeep
+
+# misc
+.DS_Store
+*.pem
+.idea
+.vscode
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (keep .env.example committed)
+.env
+.env*.local
+
+# typescript
+*.tsbuildinfo
+
+# docker postgres volume (when bind-mounted locally)
+/.pgdata

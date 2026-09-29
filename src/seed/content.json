@@ -1,0 +1,443 @@
+{
+  "site": {
+    "name": "Samuel Roland Vroom",
+    "availability": "Available — Fulltime & Freelance",
+    "location": "Paris, Ontario",
+    "locationFull": "Paris, Ontario · Canada",
+    "email": "sr.vroom@outlook.com",
+    "phone": "+1 (548) 255-7484",
+    "phoneHref": "+15482557484",
+    "linkedin": "https://linkedin.com/in/samuel-roland-vroom",
+    "linkedinLabel": "/samuel-roland-vroom",
+    "domain": "samuelrolandvroom.com",
+    "copyright": "© 2026 Samuel Roland Vroom — samuelrolandvroom.com",
+    "resumeFile": "Samuel-Vroom-Resume.pdf"
+  },
+  "home": {
+    "title": "Samuel Roland Vroom — Technical & Creative Project Manager",
+    "metaDescription": "Samuel Roland Vroom is a technical and creative project manager in Paris, Ontario who also builds the work — web, mobile, design, video, and writing. Available for full-time roles and freelance projects.",
+    "ogTitle": "Samuel Roland Vroom — Technical & Creative Project Manager",
+    "ogDescription": "Seven crafts, one operator. Project management backed by hands-on web, mobile, design, video, and writing skills.",
+    "eyebrow": [
+      "Portfolio / 2026",
+      "Paris, Ontario · Canada",
+      "07 Disciplines"
+    ],
+    "nameLines": [
+      "Samuel",
+      "R. Vroom"
+    ],
+    "lede": "A technical & creative <em>project manager</em> who also builds the work — web, mobile, design, film, and words. Seven crafts run through one operator, so nothing gets lost in the handoff.",
+    "facts": [
+      { "value": "7+", "label": "Years cross-functional" },
+      { "value": "30%", "label": "Engagement lift delivered" },
+      { "value": "Google", "label": "Project Mgmt certificate" },
+      { "value": "07", "label": "Disciplines, one operator" }
+    ],
+    "indexHeading": "The Index — Select a discipline",
+    "footerHeadline": "Let's build the <em>whole</em> thing — start to ship."
+  },
+  "disciplines": [
+    {
+      "number": "01",
+      "slug": "project-management",
+      "title": "Project Management",
+      "titleLines": [
+        "Project",
+        "Management"
+      ],
+      "accent": "pm",
+      "indexRole": "The operator behind it all",
+      "indexTools": "Agile · Waterfall · Google PM",
+      "featured": true,
+      "metaDescription": "Project management by Samuel Roland Vroom — Agile and Waterfall delivery, budgets, risk and crisis mitigation, stakeholder leadership. Google PM certified. Available full-time and freelance.",
+      "tag": "The operator who keeps it all moving.",
+      "intro": "This is the thread through everything else. I run <strong>technical and creative projects</strong> end to end — Agile or Waterfall, budgets and risk — with the calm to fix a crisis on-site when the dignitaries are already in the room.",
+      "capabilitiesHeading": "Capabilities",
+      "capabilities": [
+        { "title": "Delivery leadership", "description": "Agile sprints and Waterfall, matched to the project — not dogma." },
+        { "title": "Scoping & budgets", "description": "Multi-phase plans that eliminate scope creep and delays." },
+        { "title": "Risk & crisis", "description": "Mitigating high-stakes failures under real-time pressure." },
+        { "title": "Stakeholder management", "description": "Bridging developers, executives, and the public." },
+        { "title": "Resource allocation", "description": "The right people on the right work at the right time." },
+        { "title": "Cross-functional leadership", "description": "Directing developers, analysts, and creatives as one team." }
+      ],
+      "workHeading": "Projects led",
+      "projects": [
+        {
+          "title": "AAM2023 Credentialing Save",
+          "year": "2023",
+          "role": "Bisa Technologies · Senior PM",
+          "description": "Mitigated a critical credentialing failure for elite international dignitaries at the 30th Afreximbank Annual Meetings by rapidly deploying an on-site QR alternative framework.",
+          "placeholderTag": "Replace — event photos"
+        },
+        {
+          "title": "Cross-Functional Automation",
+          "year": "2023",
+          "role": "Bisa Technologies · Technical Lead",
+          "description": "Directed a team of developers and data analysts to optimize workflow automation for high-profile international environments.",
+          "placeholderTag": "Replace — workflow board"
+        }
+      ],
+      "proof": {
+        "big": "AAM2023",
+        "label": "Crisis averted · on-site",
+        "description": "When credentialing failed for international dignitaries, I deployed a QR alternative on the spot — <em>turning a breaking crisis into a non-event</em>."
+      },
+      "toolsHeading": "Tools of the trade",
+      "tools": [
+        "Agile",
+        "Waterfall",
+        "Jira",
+        "Asana",
+        "SharePoint",
+        "Risk Mitigation",
+        "Google PM Cert"
+      ],
+      "footerHeadline": "Want the whole thing <em>actually delivered</em>?"
+    },
+    {
+      "number": "02",
+      "slug": "web",
+      "title": "Web Development",
+      "titleLines": [
+        "Web",
+        "Development"
+      ],
+      "accent": "web",
+      "indexRole": "Responsive products, shipped end-to-end",
+      "indexTools": "React · Next.js · Tailwind",
+      "featured": false,
+      "metaDescription": "Web development by Samuel Roland Vroom — responsive products shipped end to end with React, Next.js and Tailwind, from stakeholder requirements to live deployment.",
+      "tag": "Responsive products, shipped end to end.",
+      "intro": "I build and ship web products from <strong>first conversation to live deployment</strong> — stakeholder requirements, Figma mockups, full-stack build, launch. Because I also run the project, what ships matches the plan and the brand, not just the ticket.",
+      "capabilitiesHeading": "Capabilities",
+      "capabilities": [
+        { "title": "Front-end engineering", "description": "React, Next.js and Tailwind — accessible, fast, responsive interfaces that hold up on every screen." },
+        { "title": "Full-stack delivery", "description": "PHP, SQL and Python back-ends wired cleanly to the front end, deployed and monitored." },
+        { "title": "Design-to-code", "description": "I translate Figma mockups into pixel-faithful, maintainable markup — no handoff gap." },
+        { "title": "SEO & performance", "description": "Continuous tracking and data-driven iteration that measurably lifts engagement." },
+        { "title": "Scoping & requirements", "description": "Stakeholder discovery that kills scope creep before a single line is written." },
+        { "title": "Launch & handover", "description": "Documentation, training and a clean handover so the work outlives the engagement." }
+      ],
+      "workHeading": "Things I've shipped",
+      "projects": [
+        {
+          "title": "Creative Media Web Presence",
+          "year": "2025–26",
+          "role": "Freelance Technical PM · Full-stack",
+          "description": "Gathered stakeholder requirements, designed the hi-fi UI/UX in Figma, and executed full-stack deployment of a responsive site for a creative-media initiative.",
+          "placeholderTag": "Replace — site screenshot"
+        },
+        {
+          "title": "Brand Deployment System",
+          "year": "2018–23",
+          "role": "Click Communications · Project Lead",
+          "description": "Drove developer workflows and a mobile-responsive redesign; SEO tracking and continuous iteration lifted user engagement by 30%.",
+          "placeholderTag": "Replace — before/after"
+        }
+      ],
+      "proof": {
+        "big": "30%",
+        "label": "Measured outcome · Click Communications",
+        "description": "Engagement lift delivered through a mobile-responsive redesign, continuous SEO tracking, and <em>data-driven iteration</em>."
+      },
+      "toolsHeading": "Tools of the trade",
+      "tools": [
+        "React",
+        "Next.js",
+        "Tailwind CSS",
+        "HTML / CSS",
+        "PHP",
+        "SQL",
+        "Python",
+        "Figma",
+        "Jira"
+      ],
+      "footerHeadline": "Need a site that <em>ships</em>, not just a spec?"
+    },
+    {
+      "number": "03",
+      "slug": "mobile",
+      "title": "Mobile Development",
+      "titleLines": [
+        "Mobile",
+        "Development"
+      ],
+      "accent": "mobile",
+      "indexRole": "Health-tech & consumer apps",
+      "indexTools": "Flutter · Cross-platform",
+      "featured": false,
+      "metaDescription": "Mobile development by Samuel Roland Vroom — cross-platform Flutter apps shipped in high-stakes health-tech and consumer contexts.",
+      "tag": "Cross-platform apps, from clinic to consumer.",
+      "intro": "I design and build cross-platform mobile apps with <strong>Flutter</strong> — one codebase, native feel on iOS and Android. I've shipped in high-stakes health-tech, where the demo room is a hospital board, not a sprint review.",
+      "capabilitiesHeading": "Capabilities",
+      "capabilities": [
+        { "title": "Flutter engineering", "description": "A single Dart codebase delivering native-grade UI on both iOS and Android." },
+        { "title": "Health-tech delivery", "description": "Building and demoing clinical platforms where reliability is never optional." },
+        { "title": "Responsive product design", "description": "Mobile-first layouts that adapt cleanly from phone to tablet." },
+        { "title": "API & data integration", "description": "Wiring apps to secure back-ends, auth, and real-time data." },
+        { "title": "Stakeholder demos", "description": "Translating complex health and technical data into board-room clarity." },
+        { "title": "Release management", "description": "Store submissions, versioning, and disciplined post-launch iteration." }
+      ],
+      "workHeading": "Apps & demos",
+      "projects": [
+        {
+          "title": "AkomaCare Platform",
+          "year": "2023",
+          "role": "Bisa Technologies · Technical Lead",
+          "description": "Led technical demonstrations of the AkomaCare health platform to the Ghana Heart Initiative board, turning complex clinical data into actionable insight for executives.",
+          "placeholderTag": "Replace — app screens"
+        },
+        {
+          "title": "Cross-Platform Product Suite",
+          "year": "2018–23",
+          "role": "Click Communications · Project Lead",
+          "description": "Championed mobile-responsive product designs across the brand portfolio, contributing to a 30% lift in user engagement.",
+          "placeholderTag": "Replace — device mockups"
+        }
+      ],
+      "proof": {
+        "big": "GHI",
+        "label": "Boardroom delivery · Bisa Technologies",
+        "description": "Presented the AkomaCare platform to the Ghana Heart Initiative board — translating clinical and technical depth into <em>decisions leaders could act on</em>."
+      },
+      "toolsHeading": "Tools of the trade",
+      "tools": [
+        "Flutter",
+        "Dart",
+        "React Native",
+        "REST APIs",
+        "Firebase",
+        "Figma",
+        "Jira",
+        "SharePoint"
+      ],
+      "footerHeadline": "Got an app idea that needs a <em>steady</em> hand?"
+    },
+    {
+      "number": "04",
+      "slug": "graphic-design",
+      "title": "Graphic Design",
+      "titleLines": [
+        "Graphic",
+        "Design"
+      ],
+      "accent": "design",
+      "indexRole": "Brand systems & UI/UX",
+      "indexTools": "Figma · Adobe CC",
+      "featured": false,
+      "metaDescription": "Graphic design by Samuel Roland Vroom — brand systems and UI/UX that hold together across web, product and print. Figma for structure, Adobe for craft.",
+      "tag": "Brand systems that scale across everything.",
+      "intro": "I design <strong>brand and interface systems</strong> — not one-off graphics, but coherent visual languages that hold together across web, product, and print. Figma for structure, Adobe for craft.",
+      "capabilitiesHeading": "Capabilities",
+      "capabilities": [
+        { "title": "Brand systems", "description": "Logos, type, colour and rules that keep a brand consistent at scale." },
+        { "title": "UI/UX wireframing", "description": "Figma flows and hi-fi mockups that de-risk the build before it starts." },
+        { "title": "Motion graphics", "description": "Animated assets that bring static brands to life." },
+        { "title": "Marketing collateral", "description": "Decks, social and campaign assets — on-brand and on-deadline." },
+        { "title": "Design ops", "description": "Component libraries and handoff specs developers actually enjoy." },
+        { "title": "Visual direction", "description": "A consistent eye across every touchpoint of a campaign." }
+      ],
+      "workHeading": "Selected work",
+      "projects": [
+        {
+          "title": "Unified Brand Deployment",
+          "year": "2018–23",
+          "role": "Click Communications · Project Lead",
+          "description": "Structured scalable brand deployments across complex digital landscapes — unifying marketing and developer workflows under one visual system.",
+          "placeholderTag": "Replace — brand boards"
+        },
+        {
+          "title": "Product UI System",
+          "year": "2025–26",
+          "role": "Freelance · UI/UX",
+          "description": "Designed hi-fi UI/UX mockups in Figma for a creative-media web product, from wireframe to developer-ready spec.",
+          "placeholderTag": "Replace — UI screens"
+        }
+      ],
+      "proof": {
+        "big": "100%",
+        "label": "Consistency",
+        "description": "Unified, scalable brand deployments across every digital landscape — one visual system, <em>zero drift</em>."
+      },
+      "toolsHeading": "Tools of the trade",
+      "tools": [
+        "Figma",
+        "Photoshop",
+        "Illustrator",
+        "After Effects",
+        "InDesign",
+        "Premiere Pro"
+      ],
+      "footerHeadline": "Need a brand that <em>holds together</em>?"
+    },
+    {
+      "number": "05",
+      "slug": "video",
+      "title": "Video Editing",
+      "titleLines": [
+        "Video",
+        "Editing"
+      ],
+      "accent": "video",
+      "indexRole": "Broadcast-grade post",
+      "indexTools": "Premiere · After Effects",
+      "featured": false,
+      "metaDescription": "Video editing by Samuel Roland Vroom — broadcast-grade post-production from concept to delivery: edit, motion graphics, colour and sound.",
+      "tag": "Broadcast-grade stories, concept to delivery.",
+      "intro": "I cut <strong>public-facing video narratives</strong> from concept to delivery — trained in an intensive broadcast program and comfortable owning the whole pipeline: shoot logistics, edit, motion, and post.",
+      "capabilitiesHeading": "Capabilities",
+      "capabilities": [
+        { "title": "Edit & post", "description": "Premiere Pro pipelines from rushes to final, polished delivery." },
+        { "title": "Motion graphics", "description": "After Effects titles, lower-thirds, and animated explainers." },
+        { "title": "Production logistics", "description": "Coordinating timelines, crews, and equipment on location." },
+        { "title": "Story structure", "description": "Shaping raw footage into a narrative that actually lands." },
+        { "title": "Colour & sound", "description": "Finishing passes that make community work look broadcast-grade." },
+        { "title": "Delivery specs", "description": "Exports and formats ready for broadcast, web, and social." }
+      ],
+      "workHeading": "Reel & projects",
+      "projects": [
+        {
+          "title": "Community Broadcast Narratives",
+          "year": "2024–25",
+          "role": "Conestoga Connected & CCDTV · Producer/Editor",
+          "description": "Produced public-facing video narratives concept-to-delivery for community organizations — coordinating timelines, equipment logistics, and post-production.",
+          "placeholderTag": "Replace — video stills"
+        },
+        {
+          "title": "On-Location Production Support",
+          "year": "2024–",
+          "role": "Take 1 & Concepts · Location Support",
+          "description": "Directed on-site logistics for large-scale production crews, ensuring permit compliance and smooth shoot days.",
+          "placeholderTag": "Replace — set photos"
+        }
+      ],
+      "proof": {
+        "big": "C→D",
+        "label": "Ownership",
+        "description": "Concept to delivery — I carry a video from the <em>first idea to the final export</em>, not just the timeline in the middle."
+      },
+      "toolsHeading": "Tools of the trade",
+      "tools": [
+        "Premiere Pro",
+        "After Effects",
+        "DaVinci Resolve",
+        "Audition",
+        "Media Encoder"
+      ],
+      "footerHeadline": "Have footage that deserves a <em>real</em> cut?"
+    },
+    {
+      "number": "06",
+      "slug": "writing",
+      "title": "Writing",
+      "titleLines": [
+        "Writing"
+      ],
+      "accent": "write",
+      "indexRole": "Words that move stakeholders",
+      "indexTools": "Strategy · Comms",
+      "featured": false,
+      "metaDescription": "Writing by Samuel Roland Vroom — strategic communications, crisis messaging, and content that turns complex data into decisions.",
+      "tag": "Words that move stakeholders to act.",
+      "intro": "I write to <strong>create movement</strong> — strategic communications, crisis messaging, and content that turns complex technical and health data into something a decision-maker will act on.",
+      "capabilitiesHeading": "Capabilities",
+      "capabilities": [
+        { "title": "Strategic comms", "description": "Messaging that aligns teams and moves stakeholders to act." },
+        { "title": "Crisis communications", "description": "Calm, clear writing when the stakes and pressure are highest." },
+        { "title": "Technical translation", "description": "Turning complex data into plain, persuasive language." },
+        { "title": "SEO content", "description": "Copy that ranks and converts — tracked and iterated." },
+        { "title": "Executive briefs", "description": "Distilling detail into the one page leaders actually need." },
+        { "title": "Editing & voice", "description": "A consistent, credible tone across every channel." }
+      ],
+      "workHeading": "Selected writing",
+      "projects": [
+        {
+          "title": "Crisis Communications",
+          "year": "2018–23",
+          "role": "Click Communications · Strategic Comms",
+          "description": "Led communications during high-pressure moments, protecting organizational reputation with clear, calm, fast messaging.",
+          "placeholderTag": "Replace — writing samples"
+        },
+        {
+          "title": "Data-to-Decision Briefs",
+          "year": "2023",
+          "role": "Bisa Technologies · Technical Lead",
+          "description": "Translated complex technical and health data into actionable business insights for executive leaders.",
+          "placeholderTag": "Replace — brief excerpts"
+        }
+      ],
+      "proof": {
+        "big": "30%",
+        "label": "Words that worked",
+        "description": "SEO-driven content and messaging that helped lift engagement — <em>writing measured by outcomes</em>, not word count."
+      },
+      "toolsHeading": "Tools of the trade",
+      "tools": [
+        "Copywriting",
+        "Strategic Comms",
+        "Crisis Comms",
+        "SEO",
+        "Editing"
+      ],
+      "footerHeadline": "Need words that actually <em>move</em> people?"
+    },
+    {
+      "number": "07",
+      "slug": "screenwriting",
+      "title": "Screenwriting",
+      "titleLines": [
+        "Screen",
+        "writing"
+      ],
+      "accent": "screen",
+      "indexRole": "Concept to delivery",
+      "indexTools": "Script · Story",
+      "featured": false,
+      "metaDescription": "Screenwriting by Samuel Roland Vroom — scripts built to be shot, scheduled and delivered, written with a producer’s discipline.",
+      "tag": "Structure first. Story always.",
+      "intro": "I write for the screen with a <strong>producer's discipline</strong> — scripts built to be shot, scheduled, and delivered. Trained in television and independent production, I think in scenes and in logistics at once.",
+      "capabilitiesHeading": "Capabilities",
+      "capabilities": [
+        { "title": "Script development", "description": "From logline and outline to a shooting-ready script." },
+        { "title": "Story structure", "description": "Beats and arcs engineered to hold an audience." },
+        { "title": "Format & craft", "description": "Industry-standard formatting and tight scene discipline." },
+        { "title": "Production-aware writing", "description": "Pages that respect budget, location, and schedule." },
+        { "title": "Adaptation", "description": "Turning briefs, real stories, and data into narrative." },
+        { "title": "Collaboration", "description": "Writing inside a crew, not in a vacuum." }
+      ],
+      "workHeading": "Scripts & development",
+      "projects": [
+        {
+          "title": "Broadcast Story Packages",
+          "year": "2024–25",
+          "role": "Conestoga · Television & Independent Production",
+          "description": "Scripted and structured community-focused narratives concept-to-delivery within an intensive broadcast program.",
+          "placeholderTag": "Replace — script pages"
+        },
+        {
+          "title": "Narrative Development Slate",
+          "year": "2024–",
+          "role": "Independent",
+          "description": "Developing original short-form screenplays with a focus on producible, location-smart storytelling.",
+          "placeholderTag": "Replace — treatment art"
+        }
+      ],
+      "proof": {
+        "big": "S→S",
+        "label": "Method",
+        "description": "Structure first, story always — scripts that read on the page and <em>survive contact with a real schedule</em>."
+      },
+      "toolsHeading": "Tools of the trade",
+      "tools": [
+        "Final Draft",
+        "Screenwriting",
+        "Story Structure",
+        "Treatments",
+        "Story Editing"
+      ],
+      "footerHeadline": "Have a story that needs a <em>shootable</em> script?"
+    }
+  ]
+}

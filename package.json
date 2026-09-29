@@ -1,0 +1,42 @@
+{
+  "name": "srv-portfolio",
+  "version": "1.0.0",
+  "description": "Samuel Roland Vroom — portfolio. Next.js + Payload CMS + PostgreSQL.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": "^18.20.2 || >=20.9.0"
+  },
+  "scripts": {
+    "dev": "cross-env NODE_OPTIONS=--no-deprecation next dev",
+    "devsafe": "rm -rf .next && cross-env NODE_OPTIONS=--no-deprecation next dev",
+    "build": "cross-env NODE_OPTIONS=--no-deprecation next build",
+    "start": "cross-env NODE_OPTIONS=--no-deprecation next start",
+    "lint": "cross-env NODE_OPTIONS=--no-deprecation next lint",
+    "payload": "cross-env NODE_OPTIONS=--no-deprecation payload",
+    "generate:types": "cross-env NODE_OPTIONS=--no-deprecation payload generate:types",
+    "generate:importmap": "cross-env NODE_OPTIONS=--no-deprecation payload generate:importmap",
+    "seed": "cross-env NODE_OPTIONS=--no-deprecation payload run src/seed/seed.ts"
+  },
+  "dependencies": {
+    "@payloadcms/db-postgres": "3.85.0",
+    "@payloadcms/email-nodemailer": "3.85.0",
+    "@payloadcms/next": "3.85.0",
+    "@payloadcms/richtext-lexical": "3.85.0",
+    "@payloadcms/ui": "3.85.0",
+    "cross-env": "^7.0.3",
+    "graphql": "^16.9.0",
+    "next": "^15.2.3",
+    "payload": "3.85.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "sharp": "^0.33.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.0.1",
+    "@types/react-dom": "^19.0.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}

@@ -1,0 +1,119 @@
+/* ============================================================
+   SAMUEL ROLAND VROOM — Portfolio Design System
+   Original monochrome identity, per-discipline oklch accents.
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,600&family=Newsreader:ital,opsz,wght@1,6..72,300;1,6..72,400;0,6..72,400;0,6..72,500&family=Space+Mono:wght@400;700&display=swap');
+
+:root {
+  /* ---- Monochrome base ---- */
+  --paper:      #FAFAF8;   /* warm white surface */
+  --paper-2:    #F1F0EC;   /* sunk panel */
+  --ink:        #0E0E0D;   /* near-black text */
+  --ink-soft:   #4B4B49;   /* secondary text */
+  --ink-mute:   #8C8C88;   /* tertiary / meta */
+  --line:       rgba(14,14,13,0.14);
+  --line-soft:  rgba(14,14,13,0.08);
+  --black:      #0A0A09;   /* dark surface */
+  --white:      #FAFAF8;
+
+  /* ---- Per-discipline accents (oklch family: L~.62 C~.15) ---- */
+  --a-web:    oklch(0.60 0.150 256);   /* blue     */
+  --a-mobile: oklch(0.64 0.120 182);   /* teal     */
+  --a-design: oklch(0.62 0.175 348);   /* magenta  */
+  --a-video:  oklch(0.70 0.150 64);    /* amber    */
+  --a-write:  oklch(0.58 0.150 300);   /* violet   */
+  --a-screen: oklch(0.60 0.185 28);    /* red      */
+  --a-pm:     oklch(0.60 0.120 150);   /* green    */
+
+  /* ---- Type ---- */
+  --grotesk: 'Archivo', system-ui, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --serif:   'Newsreader', Georgia, 'Times New Roman', serif;
+  --mono:    'Space Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace;
+
+  /* ---- Shadow (whisper) ---- */
+  --lift-1: 0 4px 16px rgba(10,10,9,0.10);
+  --lift-2: 0 12px 40px rgba(10,10,9,0.16);
+
+  /* ---- Rhythm ---- */
+  --maxw: 1200px;
+  --gutter: clamp(22px, 5vw, 64px);
+
+  /* active accent slot (set per page) */
+  --accent: var(--ink);
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--grotesk);
+  font-size: 16px;
+  line-height: 1.5;
+  font-feature-settings: 'ss01' 1, 'cv01' 1;
+}
+
+::selection { background: var(--ink); color: var(--paper); }
+
+a { color: inherit; text-decoration: none; }
+
+/* ---- Accessible focus ---- */
+:focus-visible {
+  outline: 2px solid var(--accent, var(--ink));
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* ---- Skip link ---- */
+.skip {
+  position: absolute; left: 16px; top: -48px; z-index: 100;
+  font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.1em; text-transform: uppercase;
+  background: var(--ink); color: var(--paper); padding: 10px 16px; border-radius: 0 0 8px 8px;
+  transition: top .2s ease;
+}
+.skip:focus-visible { top: 0; outline-offset: 0; }
+
+/* ---- Reusable type roles ---- */
+.mono {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+}
+.serif-it { font-family: var(--serif); font-style: italic; font-weight: 400; }
+
+.display {
+  font-family: var(--grotesk);
+  font-weight: 800;
+  line-height: 0.95;
+  letter-spacing: -0.02em;
+}
+
+/* ---- Pill button (original take on the brief) ---- */
+.pill {
+  display: inline-flex; align-items: center; gap: 0.55em;
+  font-family: var(--grotesk); font-weight: 600; font-size: 0.95rem;
+  padding: 12px 20px; border-radius: 999px;
+  border: 1px solid var(--ink);
+  background: var(--ink); color: var(--paper);
+  cursor: pointer; transition: transform .25s cubic-bezier(.2,.7,.2,1), background .25s, color .25s;
+  white-space: nowrap;
+}
+.pill:hover { transform: translateY(-2px); }
+.pill--ghost { background: transparent; color: var(--ink); }
+.pill--ghost:hover { background: var(--ink); color: var(--paper); }
+
+/* ---- Small screens: tighter pills ---- */
+@media (max-width: 560px) {
+  .pill { padding: 10px 16px; font-size: 0.88rem; }
+}
+
+/* reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  * { animation-duration: .001ms !important; transition-duration: .001ms !important; }
+}
